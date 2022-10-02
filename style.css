@@ -1,0 +1,49 @@
+html{
+    border: 2px solid red;
+}
+
+body {
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    font-family: monospace;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+
+}
+
+p {
+    color: white;
+    margin: 1%;
+}
+
+h1 {
+    color: white;
+    margin:1%;
+}
+
+hr {
+    margin-right: 1%;
+    margin-left: 1%;;
+}
+
+.profilepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    width: 100%;
+    width: 200px;
+}
+
+.name {
+    font-size: 300%;
+    text-align: center;
+    color: red;
+    border: 2px solid red;
+    margin: 10px;
+}
