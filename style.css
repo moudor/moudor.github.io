@@ -1,5 +1,7 @@
 html{
     border: 2px solid red;
+    margin-right: 1px;
+    margin-left: 1px;
 }
 
 body {
@@ -12,32 +14,52 @@ body {
 footer {
     text-align: center;
     margin: auto;
+    padding: auto;
 
 }
 
 p {
     color: white;
-    margin: 1%;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 h1 {
     color: white;
-    margin:1%;
+    margin:10px;
 }
 
 hr {
-    margin-right: 1%;
-    margin-left: 1%;;
+    margin-right: 10px;
+    margin-left: 10px;;
 }
 
-.profilepic {
+
+
+
+
+
+
+.divpic {
+    text-align: center;
+}
+
+.pic-align {
     display: block;
+    text-align: center;
+    justify-content: center;
+
+    border-radius: 100%;
+    border-color: red;
+    border-style: solid;
+    
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    margin-bottom: auto;
+    margin-bottom: 20px;
     width: 100%;
     width: 200px;
+    height: 200px;
 }
 
 .name {
@@ -46,4 +68,18 @@ hr {
     color: red;
     border: 2px solid red;
     margin: 10px;
+}
+
+.contact-link {
+    display: block;
+    text-decoration: none;
+    
+}
+
+.name:hover {
+    display: block;
+    text-decoration: none;
+    background-color: red;
+    color: black;
+    
 }
